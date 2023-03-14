@@ -9,12 +9,12 @@ pip
 
 ## Programı İndirip Çalıştırma 
 
-"`
+```
 git clone https://github.com/Spyzah/Trendyol-Kategori-Scraping.git
 cd Trendyol-Kategori-Scraping
 pip install -r requirements.txt
 python TrendyolKategoriScraping.py
-"`
+```
 
 ### Kullanılan Kütüphaneler
 
