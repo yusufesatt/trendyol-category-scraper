@@ -1,0 +1,6 @@
+aspose_cells==23.2.0
+beautifulsoup4==4.11.2
+JPype1==1.4.1
+openpyxl==3.0.10
+pandas==1.4.4
+requests==2.28.1
