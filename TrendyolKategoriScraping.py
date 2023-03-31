@@ -6,6 +6,8 @@ import asposecells
 import pandas as pd
 import openpyxl
 import os
+jpype.startJVM()
+from asposecells.api import Workbook
 
 try:
         url = input("Trendyol Kategori Url'si giriniz: ")
@@ -32,7 +34,6 @@ try:
         df1.to_excel("urunler.xlsx", sheet_name="urun", index=False)
 
         # Excel'de tabloları sığdırır
-        jpype.startJVM()
         from asposecells.api import Workbook
         wb = Workbook("urunler.xlsx")
         worksheet = wb.getWorksheets().get(0)
