@@ -13,15 +13,15 @@ pip
 git clone https://github.com/Spyzah/TrendyolKategoriScraping.git
 cd TrendyolKategoriScraping
 pip install -r requirements.txt
-python TrendyolKategoriScraping.py
+python CategoryScraping.py
 ```
 
 ### Kullanılan Kütüphaneler
 
-[BeautifulSoup](https://github.com/wention/BeautifulSoup4)
 
 [Pandas](https://github.com/pandas-dev/pandas)
 
 [requests](https://github.com/psf/requests)
 
-[AsposeCells](https://github.com/aspose-cells/Aspose.Cells-for-Python-via-.NET)
+[Json](https://github.com/dpranke/pyjson5)
+
