@@ -1,5 +1,7 @@
 # Proje Hakkında Bilgi
-Bu proje python ve çeşitli kütüphaneler kullanılarak yazılmıştır. Proje Trendyol sitesi üzerinden aratılan ürün kategorisinin linkinden ürünlerin ismi, resim linki, ürün linki ve ürün fiyatını excel tablosuna çeker.
+Tablo verilerinin elde edilmesi ve saklanması işlemlerini gerçekleştiren Trendyol Kategori Scraper, kullanıcının belirttiği Trendyol ürün kategorisi linkindeki belirli sayıdaki ürünün isimlerini, resim linklerini, ürün linklerini ve fiyatlarını alarak bir Excel tablosuna kaydeder.
+
+Bu Python projesi, Trendyol web sitesindeki ürünlerin hızlı ve otomatik bir şekilde taranmasını sağlar. Kullanıcıların belirli bir ürün kategorisindeki ürünleri kolayca takip etmelerini, rekabet analizi yapmalarını ve fiyat değişikliklerini izlemelerini sağlar.
 
 ## Kurulum Adımları ve Gereksinimler
 
