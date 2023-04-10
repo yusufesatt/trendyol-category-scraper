@@ -3,6 +3,8 @@ Tablo verilerinin elde edilmesi ve saklanması işlemlerini gerçekleştiren Tre
 
 Bu Python projesi, Trendyol web sitesindeki ürünlerin hızlı ve otomatik bir şekilde taranmasını sağlar. Kullanıcıların belirli bir ürün kategorisindeki ürünleri kolayca takip etmelerini, rekabet analizi yapmalarını ve fiyat değişikliklerini izlemelerini sağlar.
 
+[Programın çıktısına göz atmak için tıklayınız.](https://prnt.sc/U6hJ7xJX54Of)
+
 ## Kurulum Adımları ve Gereksinimler
 
 Python 3
