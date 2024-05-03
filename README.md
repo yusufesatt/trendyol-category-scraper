@@ -1,7 +1,8 @@
 # Information of products in a product category on Trendyol.
 This project takes the URL of a product category on Trendyol as input, then pulls the names, image links, product links and price information of the products and stores this data in an Excel spreadsheet in an organized manner.
 
-As an advantage, this project allows stores or customers to easily track products in a specific product category, analyze competition and monitor price changes.
+As an advantage, this project allows stores or customers to easily track products in a specific product category, analyze competition and monitor price changes.<br>
+
 [Click here to see the sample output.](https://prnt.sc/U6hJ7xJX54Of)
 
 ## Installation
