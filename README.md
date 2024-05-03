@@ -1,31 +1,49 @@
-# Proje Hakkında Bilgi
-Trendyol ürün kategorisi bağlantısındaki belirli bir ürün sayısından elde edilen verileri işleyen bir araçtır. Bu araç, ürünlerin adları, resim bağlantıları, ürün bağlantıları ve fiyatları gibi bilgileri çekerek, bu verileri düzenli bir şekilde bir Excel tablosunda saklama işlemini gerçekleştirir.
+# Information of products in a product category on Trendyol.
+This project takes the URL of a product category on Trendyol as input, then pulls the names, image links, product links and price information of the products and stores this data in an Excel spreadsheet in an organized manner.
 
-Bu Python projesi, Trendyol web sitesindeki ürünlerin hızlı ve otomatik bir şekilde taranmasını sağlar. Kullanıcıların belirli bir ürün kategorisindeki ürünleri kolayca takip etmelerini, rekabet analizi yapmalarını ve fiyat değişikliklerini izlemelerini sağlar.
+As an advantage, this project allows stores or customers to easily track products in a specific product category, analyze competition and monitor price changes.
+[Click here to see the sample output.](https://prnt.sc/U6hJ7xJX54Of)
 
-[Programın çıktısına göz atmak için tıklayınız.](https://prnt.sc/U6hJ7xJX54Of)
+## Installation
 
-## Kurulum Adımları ve Gereksinimler
+1. Clone the repository:
 
-Python 3
-
-pip
-
-## Programı İndirip Çalıştırma 
-
+```bash
+git clone https://github.com/yusufesatt/trendyol-category-scraper.git
+cd trendyol-category-scraper
 ```
-git clone https://github.com/Spyzah/TrendyolKategoriScraping.git
-cd TrendyolKategoriScraping
+
+2. Create Virtualenv **(Optional)**:
+
+```bash
+python -m venv semantic_env
+
+# Ubuntu & MacOS
+source semantic_env/bin/activate
+
+# Windows
+semantic_env/Scripts/activate
+```
+
+3. Install the required dependencies:
+
+```bash 
 pip install -r requirements.txt
-python CategoryScraping.py
 ```
 
-### Kullanılan Kütüphaneler
+## Usage
 
+The whole process will take place in one line 
 
-[Pandas](https://github.com/pandas-dev/pandas)
+```bash
+python app.py
+```
 
-[requests](https://github.com/psf/requests)
+## Contributing
 
-[Json](https://github.com/dpranke/pyjson5)
+If you encounter issues or have suggestions for improvements, please report them on the GitHub repository 🚀.
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/yusufesatt/trendyol-category-scraper?tab=MIT-1-ov-file).
 
